@@ -35,7 +35,6 @@ export default function LoginPage() {
                                 </Label>
                                 <Input
                                     type="text"
-                                    required
                                     name="firstname"
                                     placeholder='Firstname'
                                     id="firstname"
@@ -49,7 +48,7 @@ export default function LoginPage() {
                                 </Label>
                                 <Input
                                     type="text"
-                                    required
+
                                     name="lastname"
                                     placeholder='Lastname'
                                     id="lastname"
@@ -61,13 +60,13 @@ export default function LoginPage() {
                             <Label
                                 htmlFor="email"
                                 className="block text-sm">
-                                Username
+                                Email
                             </Label>
                             <Input
                                 type="email"
-                                required
+
                                 name="email"
-                                placeholder='Username'
+                                placeholder='Email'
                                 id="email"
                             />
                         </div>
@@ -81,7 +80,7 @@ export default function LoginPage() {
                             </Label>
                             <Input
                                 type="password"
-                                required
+
                                 name="pwd"
                                 placeholder='Password'
                                 id="pwd"
