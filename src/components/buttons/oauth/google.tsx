@@ -8,9 +8,9 @@ export default function Google() {
     const { signIn  } = useAuthActions();
     return (
         <Button
-            type="submit"
+            type="button"
             variant="outline"
-            onClick={() => void signIn('google')}
+            onClick={() => { void signIn('google') }}
         >
             <svg
                 xmlns="http://www.w3.org/2000/svg"
